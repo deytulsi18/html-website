@@ -97,13 +97,15 @@ header.sticky {
   align-items: center;
   flex-direction: column;
   z-index: 999;
-  transition: 0.3s;
+  transition: 0.5s;
   opacity: 0;
   visibility: hidden;
+  clip-path: circle(10%);
 }
 .navigation.active {
   opacity: 1;
   visibility: visible;
+  clip-path: circle(100%);
 }
 .navigation ul {
   display: flex;
