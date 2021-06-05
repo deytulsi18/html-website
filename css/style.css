@@ -26,7 +26,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0.75em 5em;
+  padding: 0.875em 5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -500,10 +500,10 @@ footer .footerMenu li a {
 }
 @media (max-width: 991px) {
   header {
-    padding: 0.5em 1em;
+    padding: 0.625em 1em;
   }
   header.sticky {
-    padding: 0.5em 1em;
+    padding: 0.625em 1em;
   }
   section {
     padding: 1em;
